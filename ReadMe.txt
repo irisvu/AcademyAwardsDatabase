@@ -1,19 +1,18 @@
-DISCRIPTION
+DESCRIPTION
 -----------
 
 Authors: Josh Mansito and Iris Vucic
 Date Created: 12/01/2020
-IDE's used: Visual Studio, CLION, Repl.it
+IDEs used: Visual Studio, CLION, Repl.it
 
-Program: CSCI 2421: Data Structures and Program DesignFinal Project
+Program: CSCI 2421: Data Structures and Program Design Final Project
 Purpose: 
 
 "Given the requirements as a rough specification, you are to design the classes and implement the database. 
 So you can consider the requirements below as an outcome from a meeting with a client. 
 You are in full control of the choice of data structures, algorithms, and detailed user interface scheme."
 
-We were instructed to create a program designed to navigate and manipulate two different types of csv files. Multiple Functions must be 
-working in order to meet all requirements lsited in the Final Project instructions
+We were instructed to create a program designed to navigate and manipulate two different types of csv files. Multiple functions must be working in order to meet all requirements lsited in the Final Project instructions
 
 
 --------------------------------------------------------------
@@ -82,24 +81,6 @@ makefile
 readme
 
 ---------------------------------------------------------------
-
-THOUGHTS ON ASSIGNMENT:
-
-This project was a challenge but also rewarding and tought us a lot about data structures. 
-The main obsticle we ran into was the deletion function, to acomplish it, we had to make a lot of extra functions
-for searching, deleting, tree traversal, and node deletion. We could have modified the current functions to acomplish this same thing
-but that would have required a complete rework and redesign of the program. 
-
-The menu system was more challenging than originally planned, and it has much more control than we were expecting. There were
-a lot of updates and changes done to the menu logic to try and get it to work with our functions and error checking. 
-
-The error checking system was something that saved us a lot of time. Instead of error checking or try catching inside of each function, 
-we made a umbrella error checking system for the databases and the menus that took specific parameters and error checked against
-the given parameters. It is not the ideal solution to dealing with a lot of the errors that can happen from user input, and would
-need to be fleshed out a lot more in order for it to work the way we want, but it saved us a lot of development time regardless. 
-
-
-----------------------------------------------------------------
 
 CITED SOURCES:
 
